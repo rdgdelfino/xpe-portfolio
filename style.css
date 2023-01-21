@@ -19,7 +19,7 @@ header {
   top: 0;
 }
 header nav {
-  background-color: rgb(175, 43, 207);
+  background-color: #2b8dcf;
   display: flex;
   justify-content: space-evenly;
   padding: 20px;
@@ -52,7 +52,7 @@ header h1 {
 
 #quote {
   grid-area: quote;
-  background-color: rgb(113, 0, 128);
+  background-color: #005780;
   text-align: center;
   color: white;
   padding: 20px 0;
@@ -75,7 +75,7 @@ header h1 {
   grid-template-areas: "job1 job1 job2 job2 job3 job3" "job4 job4 job4 job5 job5 job5";
 }
 #job-exp #job-exp__experience .job-exp__jobs {
-  background-color: rgb(221, 175, 252);
+  background-color: #cfebf8;
   border-radius: 10px;
   padding: 10px;
 }
@@ -118,7 +118,7 @@ header h1 {
 
 #extracurricular {
   grid-area: extracurricular;
-  background-color: rgb(221, 175, 252);
+  background-color: #cfebf8;
   padding: 20px;
 }
 
@@ -138,6 +138,10 @@ footer #footer__social-medias .footer__social-medias_icons {
 footer #footer__email-phone p {
   margin: 0;
 }
+footer #footer__copyrights p {
+  margin: 0;
+}
+
 @media (max-width: 400px) {
   main {
     grid-template-columns: 100%;
